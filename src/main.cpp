@@ -46,7 +46,7 @@ void loop() {
 
   //Vamos a arrancar el motor desde cero hasta 83
   //Girar motor en sentido horario se deben declarar la salida 22 como HIGH y 23 como LOW
-  if(salidaControlVelocidadMotor < 84 && limite1 == false & limite2 == false){
+  if(salidaControlVelocidadMotor < 84 && limite1 == false && limite2 == false){
     //Ponemos en marcha el motor
     digitalWrite(salida1,HIGH);
     digitalWrite(salida2,LOW);
